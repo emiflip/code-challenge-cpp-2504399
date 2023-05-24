@@ -2,7 +2,7 @@
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für C++`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![COURSENAME][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![COURSENAME][lil-thumbnail-url] 
 
 Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel, mit denen Sie ihre vorhandenen C++-Skills testen oder weitere neu hinzulernen können. Die von Dr. Julia Imlauer für diesen Kurs ausgewählten Aufgaben sind fester Bestandteil von technischen Interviews bei Bewerbungsgesprächen für Software-Entwickler:innen.
 
