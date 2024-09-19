@@ -1,11 +1,33 @@
 #include <iostream>
 #include <vector>
 
+//wenn volumen_temp kleiner als volumen_max: andere seite änden!!!
+
+
 int berechneVolumen(std::vector<int> eingabe)
 {
-    // todo berechne Volumen
-    return 0;
+    int index_r = eingabe.size() - 1;
+    int index_l = 0;
+    int max_volumen = 0;
+    while(index_r > index_l)
+    {
+        int length = index_r - index_l;
+        int height = std::min(eingabe[index_l], eingabe[index_r]);
+        max_volumen = std::max(max_volumen, length * height); 
+
+        if(eingabe[index_l] < eingabe[index_r])
+        {
+            index_l ++;
+        }
+        else
+            index_r --;
+    }
+
+
+
+    return max_volumen;
 }
+
 
 int main()
 {
