@@ -12,7 +12,7 @@ int berechneVolumen(std::vector<int> eingabe)
     while(index_r > index_l)
     {
         int length = index_r - index_l;
-        int height = std::min(eingabe[index_l], eingabe[index_r]);
+        int height = std::min(eingabe[index_l], eingabe[index_r]);    //die Funktionen min und max waren hier der gute alte schlüssel xd
         max_volumen = std::max(max_volumen, length * height); 
 
         if(eingabe[index_l] < eingabe[index_r])
